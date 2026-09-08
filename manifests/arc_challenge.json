@@ -1,0 +1,10 @@
+﻿{
+  "name": "arc_challenge",
+  "repository": "allenai/ai2_arc",
+  "config": "ARC-Challenge",
+  "split": "train",
+  "requested": 1119,
+  "downloaded": 1119,
+  "status": "complete",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\specializations\\examforge\\arc_challenge.jsonl"
+}

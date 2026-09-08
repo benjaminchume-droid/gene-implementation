@@ -1,0 +1,241 @@
+{
+  "ready": true,
+  "checks": [
+    {
+      "name": "python_environment",
+      "passed": true,
+      "critical": true,
+      "detail": "Python 3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+      "metadata": {
+        "executable": "C:\\Users\\ACER\\velocity-ai\\.venv\\Scripts\\python.exe"
+      }
+    },
+    {
+      "name": "import:torch",
+      "passed": true,
+      "critical": true,
+      "detail": "import successful",
+      "metadata": {}
+    },
+    {
+      "name": "import:tokenizers",
+      "passed": true,
+      "critical": true,
+      "detail": "import successful",
+      "metadata": {}
+    },
+    {
+      "name": "import:gene.model.neural",
+      "passed": true,
+      "critical": true,
+      "detail": "import successful",
+      "metadata": {}
+    },
+    {
+      "name": "import:gene.model.configs",
+      "passed": true,
+      "critical": true,
+      "detail": "import successful",
+      "metadata": {}
+    },
+    {
+      "name": "import:gene.training.tokenizer",
+      "passed": true,
+      "critical": true,
+      "detail": "import successful",
+      "metadata": {}
+    },
+    {
+      "name": "import:gene.training.packing",
+      "passed": true,
+      "critical": true,
+      "detail": "import successful",
+      "metadata": {}
+    },
+    {
+      "name": "import:gene.training.factory",
+      "passed": true,
+      "critical": true,
+      "detail": "import successful",
+      "metadata": {}
+    },
+    {
+      "name": "import:gene.training.engine",
+      "passed": true,
+      "critical": true,
+      "detail": "import successful",
+      "metadata": {}
+    },
+    {
+      "name": "import:gene.training.production",
+      "passed": true,
+      "critical": true,
+      "detail": "import successful",
+      "metadata": {}
+    },
+    {
+      "name": "import:gene.training.profiling",
+      "passed": true,
+      "critical": true,
+      "detail": "import successful",
+      "metadata": {}
+    },
+    {
+      "name": "import:gene.evaluation",
+      "passed": true,
+      "critical": true,
+      "detail": "import successful",
+      "metadata": {}
+    },
+    {
+      "name": "model_configuration",
+      "passed": true,
+      "critical": true,
+      "detail": "200M target configuration validated",
+      "metadata": {
+        "config": {
+          "vocab_size": 32768,
+          "hidden_size": 864,
+          "intermediate_size": 3456,
+          "num_layers": 14,
+          "num_heads": 12,
+          "max_position_embeddings": 8192,
+          "dropout": 0.0,
+          "rope_theta": 10000.0,
+          "tie_word_embeddings": true,
+          "model_name": "gene-200m"
+        }
+      }
+    },
+    {
+      "name": "model_instantiation",
+      "passed": true,
+      "critical": true,
+      "detail": "parameters=195551712, trainable=195551712",
+      "metadata": {
+        "parameter_count": 195551712,
+        "trainable_parameter_count": 195551712,
+        "model_name": "gene-200m"
+      }
+    },
+    {
+      "name": "production_tokenizer",
+      "passed": true,
+      "critical": true,
+      "detail": "vocab_size=32768",
+      "metadata": {
+        "path": "gene\\data\\training\\tokenizer\\gene-tokenizer.json",
+        "vocab_size": 32768
+      }
+    },
+    {
+      "name": "vocab_compatibility",
+      "passed": true,
+      "critical": true,
+      "detail": "model_vocab=32768, tokenizer_vocab=32768",
+      "metadata": {}
+    },
+    {
+      "name": "training_stack:GeneTrainer",
+      "passed": true,
+      "critical": true,
+      "detail": "available",
+      "metadata": {}
+    },
+    {
+      "name": "training_stack:TrainingDataFactory",
+      "passed": true,
+      "critical": true,
+      "detail": "available",
+      "metadata": {}
+    },
+    {
+      "name": "training_stack:CorpusPacker",
+      "passed": true,
+      "critical": true,
+      "detail": "available",
+      "metadata": {}
+    },
+    {
+      "name": "training_stack:ProductionTrainer",
+      "passed": true,
+      "critical": true,
+      "detail": "available",
+      "metadata": {}
+    },
+    {
+      "name": "training_stack:HardwareProfiler",
+      "passed": true,
+      "critical": true,
+      "detail": "available",
+      "metadata": {}
+    },
+    {
+      "name": "training_stack:EvaluationRunner",
+      "passed": true,
+      "critical": true,
+      "detail": "available",
+      "metadata": {}
+    },
+    {
+      "name": "tokenizer_artifact",
+      "passed": true,
+      "critical": true,
+      "detail": "gene\\data\\training\\tokenizer\\gene-tokenizer.json",
+      "metadata": {}
+    },
+    {
+      "name": "packed_training_data",
+      "passed": true,
+      "critical": true,
+      "detail": "path=gene\\data\\training\\packed\\train.bin, bytes=1642594304",
+      "metadata": {}
+    },
+    {
+      "name": "200m_smoke_test",
+      "passed": true,
+      "critical": true,
+      "detail": "loss=10.594498634338379, changed_parameters=100",
+      "metadata": {
+        "model": "gene-200m",
+        "device": "cpu",
+        "parameter_count": 195551712,
+        "trainable_parameter_count": 195551712,
+        "context": 8192,
+        "sequence_length": 128,
+        "loss": 10.594498634338379,
+        "gradient_tensors": 100,
+        "gradient_norm": 91.79828939307481,
+        "changed_parameters": 100,
+        "forward": true,
+        "backward": true,
+        "optimizer_step": true
+      }
+    },
+    {
+      "name": "hardware_profile",
+      "passed": true,
+      "critical": true,
+      "detail": "device=CPU",
+      "metadata": {
+        "platform": "Windows-11-10.0.22621-SP0",
+        "python": "3.13.15",
+        "processor": "Intel64 Family 6 Model 61 Stepping 4, GenuineIntel",
+        "torch": "2.13.0+cpu",
+        "cuda_available": false
+      }
+    },
+    {
+      "name": "production_training_controller",
+      "passed": true,
+      "critical": true,
+      "detail": "ProductionTrainer available",
+      "metadata": {}
+    }
+  ],
+  "passed": 27,
+  "failed": 0,
+  "critical_failures": [],
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.13.0+cpu"
+}

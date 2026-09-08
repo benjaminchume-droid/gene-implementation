@@ -1,0 +1,11 @@
+﻿{
+  "name": "weblinx",
+  "repository": "McGill-NLP/WebLINX",
+  "config": null,
+  "split": "train",
+  "requested": 5000,
+  "downloaded": 0,
+  "status": "failed",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\specializations\\lumen_mind\\weblinx.jsonl",
+  "error": "Couldn't reach 'McGill-NLP/WebLINX' on the Hub (LocalEntryNotFoundError)"
+}

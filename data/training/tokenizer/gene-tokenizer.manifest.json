@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-08-17T05:47:44.320694+00:00",
+  "tokenizer": "gene\\data\\training\\tokenizer\\gene-tokenizer.json",
+  "vocab_size": 32768,
+  "configured_vocab_size": 32768,
+  "min_frequency": 2,
+  "special_tokens": [
+    "<pad>",
+    "<unk>",
+    "<bos>",
+    "<eos>"
+  ],
+  "source_files": [
+    "C:\\Users\\ACER\\velocity-ai\\gene\\data\\training\\normalized\\cosmopedia_v2\\chunk_000_normalized.jsonl",
+    "C:\\Users\\ACER\\velocity-ai\\gene\\data\\training\\normalized\\fineweb\\chunk_000_normalized.jsonl",
+    "C:\\Users\\ACER\\velocity-ai\\gene\\data\\training\\normalized\\fineweb_edu\\chunk_000_normalized.jsonl",
+    "C:\\Users\\ACER\\velocity-ai\\gene\\data\\training\\normalized\\openwebmath\\chunk_000_normalized.jsonl",
+    "C:\\Users\\ACER\\velocity-ai\\gene\\data\\training\\normalized\\tulu3_sft\\chunk_000_normalized.jsonl",
+    "C:\\Users\\ACER\\velocity-ai\\gene\\data\\training\\normalized\\wikipedia\\chunk_000_normalized.jsonl"
+  ],
+  "source_format": "jsonl",
+  "requested_vocab_size": 32768,
+  "actual_vocab_size": 32768
+}

@@ -1,0 +1,11 @@
+﻿{
+  "dataset": "swebench_lite",
+  "repository": "princeton-nlp/SWE-bench_Lite",
+  "config": null,
+  "split": "test",
+  "requested": 300,
+  "downloaded": 300,
+  "license": "dataset-specific",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\datasets\\raw\\future_agents\\swebench_lite.jsonl",
+  "status": "complete"
+}

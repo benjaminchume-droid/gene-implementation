@@ -1,0 +1,8 @@
+﻿{
+  "name": "magicoder",
+  "repository": "ise-uiuc/Magicoder-OSS-Instruct-75K",
+  "requested": 5000,
+  "downloaded": 5000,
+  "status": "complete",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\datasets\\raw\\future_agents\\magicoder.jsonl"
+}

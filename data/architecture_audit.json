@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "python_files": 361,
+  "errors": [],
+  "warnings": [
+    {
+      "category": "package",
+      "message": "Python source directory lacks __init__.py.",
+      "path": "gene\\agents"
+    },
+    {
+      "category": "package",
+      "message": "Python source directory lacks __init__.py.",
+      "path": "gene\\datasets"
+    },
+    {
+      "category": "package",
+      "message": "Python source directory lacks __init__.py.",
+      "path": "gene\\diagnostics"
+    },
+    {
+      "category": "package",
+      "message": "Python source directory lacks __init__.py.",
+      "path": "gene\\learning\\candidates"
+    },
+    {
+      "category": "package",
+      "message": "Python source directory lacks __init__.py.",
+      "path": "gene\\learning\\evaluation"
+    },
+    {
+      "category": "package",
+      "message": "Python source directory lacks __init__.py.",
+      "path": "gene\\models\\audio\\speecht5-xvectors"
+    },
+    {
+      "category": "package",
+      "message": "Python source directory lacks __init__.py.",
+      "path": "gene\\training\\tests"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿{
+  "name": "oasst1",
+  "repository": "OpenAssistant/oasst1",
+  "requested": 5000,
+  "downloaded": 5000,
+  "status": "complete",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\datasets\\raw\\core\\oasst1.jsonl"
+}

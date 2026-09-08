@@ -1,0 +1,84 @@
+{
+  "name": "gene-1",
+  "version": "1.0.0",
+  "description": "Modular Gene intelligence genome.",
+  "metadata": {
+    "architecture_policy": "modular",
+    "parameter_count": "external",
+    "context_window": "external",
+    "training_state": "untrained",
+    "evolution_policy": "module_and_skill_based"
+  },
+  "modules": [
+    {
+      "name": "language",
+      "category": "core_intelligence",
+      "enabled": true,
+      "priority": 100,
+      "version": "1.0"
+    },
+    {
+      "name": "reasoning",
+      "category": "core_intelligence",
+      "enabled": true,
+      "priority": 100,
+      "version": "1.0"
+    },
+    {
+      "name": "planning",
+      "category": "cognition",
+      "enabled": true,
+      "priority": 90,
+      "version": "1.0"
+    },
+    {
+      "name": "memory",
+      "category": "cognition",
+      "enabled": true,
+      "priority": 90,
+      "version": "1.0"
+    },
+    {
+      "name": "knowledge",
+      "category": "cognition",
+      "enabled": true,
+      "priority": 80,
+      "version": "1.0"
+    },
+    {
+      "name": "tool_use",
+      "category": "agency",
+      "enabled": true,
+      "priority": 90,
+      "version": "1.0"
+    },
+    {
+      "name": "coding",
+      "category": "specialization",
+      "enabled": true,
+      "priority": 80,
+      "version": "1.0"
+    },
+    {
+      "name": "mathematics",
+      "category": "specialization",
+      "enabled": true,
+      "priority": 80,
+      "version": "1.0"
+    },
+    {
+      "name": "browser_interaction",
+      "category": "agency",
+      "enabled": true,
+      "priority": 70,
+      "version": "1.0"
+    },
+    {
+      "name": "computer_interaction",
+      "category": "agency",
+      "enabled": true,
+      "priority": 70,
+      "version": "1.0"
+    }
+  ]
+}

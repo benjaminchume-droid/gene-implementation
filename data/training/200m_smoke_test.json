@@ -1,0 +1,15 @@
+{
+  "model": "gene-200m",
+  "device": "cpu",
+  "parameter_count": 195551712,
+  "trainable_parameter_count": 195551712,
+  "context": 8192,
+  "sequence_length": 128,
+  "loss": 10.594498634338379,
+  "gradient_tensors": 100,
+  "gradient_norm": 91.79828939307481,
+  "changed_parameters": 100,
+  "forward": true,
+  "backward": true,
+  "optimizer_step": true
+}

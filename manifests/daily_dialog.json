@@ -1,0 +1,10 @@
+﻿{
+  "name": "daily_dialog",
+  "repository": "OpenRL/daily_dialog",
+  "config": null,
+  "split": "train",
+  "requested": 10000,
+  "downloaded": 10000,
+  "status": "complete",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\specializations\\relay\\daily_dialog.jsonl"
+}

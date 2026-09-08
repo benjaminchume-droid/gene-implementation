@@ -1,0 +1,17 @@
+﻿{
+  "voice": {
+    "wake_phrase": "hello gene",
+    "hotkey": "x",
+    "response_phrase": "Hi, can I help you?",
+    "language": "en-US",
+    "tts_enabled": true,
+    "stt_enabled": true,
+    "hotkey_enabled": true,
+    "wake_phrase_enabled": true
+  },
+  "desktop_policy": {
+    "privilege_level": "USER",
+    "internet_level": "STANDARD",
+    "confirmation_mode": "RISK_BASED"
+  }
+}

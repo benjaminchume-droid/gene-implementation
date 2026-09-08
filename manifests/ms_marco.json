@@ -1,0 +1,11 @@
+﻿{
+  "name": "ms_marco",
+  "repository": "microsoft/ms_marco",
+  "config": "v1.1",
+  "split": "train",
+  "requested": 10000,
+  "downloaded": 0,
+  "status": "failed",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\specializations\\lumen_mind\\ms_marco.jsonl",
+  "error": "Couldn't reach 'microsoft/ms_marco' on the Hub (LocalEntryNotFoundError)"
+}

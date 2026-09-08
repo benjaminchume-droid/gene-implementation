@@ -1,0 +1,11 @@
+﻿{
+  "name": "webnlg",
+  "repository": "GEM/web_nlg",
+  "config": "en",
+  "split": "train",
+  "requested": 5000,
+  "downloaded": 0,
+  "status": "failed",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\specializations\\lumen_forge\\webnlg.jsonl",
+  "error": "Dataset scripts are no longer supported, but found web_nlg.py"
+}

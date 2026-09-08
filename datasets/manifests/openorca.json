@@ -1,0 +1,9 @@
+﻿{
+  "name": "openorca",
+  "repository": "Open-Orca/OpenOrca",
+  "requested": 10000,
+  "downloaded": 0,
+  "status": "failed",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\datasets\\raw\\core\\openorca.jsonl",
+  "error": "[Errno 11001] getaddrinfo failed"
+}

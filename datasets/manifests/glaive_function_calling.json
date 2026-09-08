@@ -1,0 +1,8 @@
+﻿{
+  "name": "glaive_function_calling",
+  "repository": "glaiveai/glaive-function-calling-v2",
+  "requested": 10000,
+  "downloaded": 10000,
+  "status": "complete",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\datasets\\raw\\agent\\glaive_function_calling.jsonl"
+}

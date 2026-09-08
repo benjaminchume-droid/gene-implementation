@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime / personal data
+memory/interaction_log.jsonl
+data/conversations/
+data/knowledge/
+data/soul/
+data/evolution/
+data/learning/
+data/mcp/
+data/models/
+data/skills/
+gene/data/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Training datasets / raw data
+datasets/raw/
+datasets/knowledge_precursor/
+raw/
+
+# Download caches
+**/.cache/
+**/.huggingface/
+
+# Model weights / checkpoints
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.onnx
+*.gguf
+*.ggml
+
+# Generated training artifacts
+data/training/packed/
+data/training/normalized/
+data/training/production_v2/
+data/training/checkpoints/
+training/checkpoints/
+
+# Temporary / backup implementation files
+*.bak
+*.phase3.bak
+*.phase4.bak
+
+# Generated audit files
+gene-file-inventory.csv
+gene-full-tree.txt
+gene-source-files.txt

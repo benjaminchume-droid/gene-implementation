@@ -1,0 +1,11 @@
+﻿{
+  "name": "glaive_function_calling",
+  "repository": "glaiveai/glaive-function-calling-v2",
+  "config": null,
+  "split": "train",
+  "requested": 10000,
+  "downloaded": 0,
+  "status": "failed",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\raw\\agent\\glaive_function_calling.jsonl",
+  "error": "[Errno 11001] getaddrinfo failed"
+}

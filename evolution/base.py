@@ -1,0 +1,2 @@
+﻿class EvolutionInvariantError(RuntimeError):
+    pass

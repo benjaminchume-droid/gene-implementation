@@ -1,0 +1,10 @@
+{
+  "bos_token": "<s>",
+  "eos_token": "</s>",
+  "model_max_length": 600,
+  "pad_token": "<pad>",
+  "processor_class": "SpeechT5Processor",
+  "sp_model_kwargs": {},
+  "tokenizer_class": "SpeechT5Tokenizer",
+  "unk_token": "<unk>"
+}

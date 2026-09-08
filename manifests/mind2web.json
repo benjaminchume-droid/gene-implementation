@@ -1,0 +1,11 @@
+﻿{
+  "name": "mind2web",
+  "repository": "osunlp/Mind2Web",
+  "config": null,
+  "split": "train",
+  "requested": 1000,
+  "downloaded": 0,
+  "status": "failed",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\specializations\\lumen_mind\\mind2web.jsonl",
+  "error": "[Errno 11001] getaddrinfo failed"
+}

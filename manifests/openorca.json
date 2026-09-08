@@ -1,0 +1,11 @@
+﻿{
+  "name": "openorca",
+  "repository": "Open-Orca/OpenOrca",
+  "config": null,
+  "split": "train",
+  "requested": 10000,
+  "downloaded": 0,
+  "status": "failed",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\raw\\core\\openorca.jsonl",
+  "error": "Server Disconnected"
+}

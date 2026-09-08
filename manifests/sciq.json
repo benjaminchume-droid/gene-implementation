@@ -1,0 +1,10 @@
+﻿{
+  "name": "sciq",
+  "repository": "allenai/sciq",
+  "config": null,
+  "split": "train",
+  "requested": 10000,
+  "downloaded": 10000,
+  "status": "complete",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\specializations\\examforge\\sciq.jsonl"
+}

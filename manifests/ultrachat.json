@@ -1,0 +1,10 @@
+﻿{
+  "name": "ultrachat",
+  "repository": "HuggingFaceH4/ultrachat_200k",
+  "config": null,
+  "split": "train_sft",
+  "requested": 5000,
+  "downloaded": 5000,
+  "status": "complete",
+  "output": "C:\\Users\\ACER\\velocity-ai\\GENE\\raw\\core\\ultrachat.jsonl"
+}

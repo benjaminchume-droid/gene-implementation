@@ -1,0 +1,80 @@
+﻿GENE AI PROPRIETARY LICENSE
+
+Copyright (c) 2026 Benjamin Chume / Velocity Labs.
+All rights reserved.
+
+1. OWNERSHIP
+
+The Gene AI source code, architecture, documentation, configuration,
+and associated materials in this repository are proprietary intellectual
+property of Benjamin Chume / Velocity Labs, except for components that
+are expressly identified as third-party material and remain subject to
+their respective licenses.
+
+2. NO LICENSE GRANTED
+
+No permission, license, or other right is granted to any person or
+organization to use, copy, modify, adapt, merge, publish, distribute,
+sublicense, sell, rent, lease, host, or create derivative works from
+the Gene AI proprietary code, in whole or in part, except with prior
+written permission from Benjamin Chume / Velocity Labs.
+
+3. MODIFICATION
+
+You may inspect the source code for evaluation and security review
+purposes only.
+
+Modification of the Gene AI proprietary source code is not authorized
+under this license.
+
+Any modified copy, fork, derivative implementation, or adapted version
+may not be distributed, published, hosted as a public service, or
+otherwise made available to third parties without prior written
+permission.
+
+4. COMMERCIAL USE
+
+Commercial use, deployment, incorporation into another product or
+service, resale, licensing, or provision of hosted access to the
+proprietary code requires a separate written commercial license from
+Benjamin Chume / Velocity Labs.
+
+5. REDISTRIBUTION
+
+Redistribution of the proprietary source code, substantial portions
+of it, or modified versions is prohibited without prior written
+permission.
+
+This restriction includes public repositories, package registries,
+mirrors, downloadable archives, and hosted services that expose the
+proprietary implementation.
+
+6. THIRD-PARTY COMPONENTS
+
+This license does not supersede licenses applicable to third-party
+dependencies, datasets, model weights, tools, or other materials that
+are separately identified in the repository.
+
+Those materials remain governed by their own licenses and terms.
+
+7. TRADEMARKS
+
+"Gene", "Gene AI", "Velocity AI", and related names, logos, and marks
+are not licensed by this document.
+
+Separate permission is required for trademark use except where
+permitted by applicable law.
+
+8. NO WARRANTY
+
+The proprietary code is provided "AS IS", without warranty of any kind,
+express or implied, to the maximum extent permitted by law.
+
+9. RESERVATION OF RIGHTS
+
+All rights not expressly granted are reserved by Benjamin Chume /
+Velocity Labs.
+
+For licensing inquiries or written permission, contact the copyright
+owner through the official contact channel associated with the Gene AI
+project.

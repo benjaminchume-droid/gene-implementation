@@ -1,12 +1,12 @@
-﻿from .builtin import register_builtin_subagents
-from .models import (
+﻿from gene.core.agents import (
+    SubAgentRegistry,
+    SubAgentRuntime,
+    SubAgentTask,
     SubAgentResult,
     SubAgentSpec,
     SubAgentStatus,
-    SubAgentTask,
+    register_builtin_subagents,
 )
-from .registry import SubAgentRegistry
-from .runtime import SubAgentRuntime
 
 __all__ = [
     "SubAgentRegistry",

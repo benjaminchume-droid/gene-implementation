@@ -1,4 +1,4 @@
-﻿[build-system]
+[build-system]
 requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
@@ -13,7 +13,7 @@ authors = [
 ]
 
 [project.scripts]
-gene = "gene.cli:main"
+gene = "cli.main:main"
 
 [tool.setuptools]
 include-package-data = true
@@ -21,84 +21,45 @@ include-package-data = true
 [tool.setuptools.packages.find]
 where = ["."]
 include = [
-    "gene",
-    "gene.*",
-    "agent",
-    "agent.*",
-    "agents",
-    "agents.*",
-    "browser",
-    "browser.*",
-    "capabilities",
-    "capabilities.*",
-    "cli",
-    "cli.*",
-    "config",
-    "config.*",
-    "context",
-    "context.*",
-    "core",
-    "core.*",
-    "datasets",
-    "datasets.*",
-    "desktop",
-    "desktop.*",
-    "diagnostics",
-    "diagnostics.*",
-    "discovery",
-    "discovery.*",
-    "evaluation",
-    "evaluation.*",
-    "evolution",
-    "evolution.*",
-    "experimentation",
-    "experimentation.*",
-    "genome",
-    "genome.*",
-    "inference",
-    "inference.*",
-    "knowledge",
-    "knowledge.*",
-    "learning",
-    "learning.*",
-    "levels",
-    "levels.*",
-    "memory",
-    "memory.*",
-    "mcp_runtime",
-    "mcp_runtime.*",
-    "model",
-    "model.*",
-    "models",
-    "models.*",
-    "multimodal",
-    "multimodal.*",
-    "planning",
-    "planning.*",
-    "runtime",
-    "runtime.*",
-    "scheduler",
-    "scheduler.*",
-    "skills",
-    "skills.*",
-    "soul",
-    "soul.*",
-    "specializations",
-    "specializations.*",
-    "tools",
-    "tools.*",
-    "training",
-    "training.*",
-    "vision",
-    "vision.*",
-    "voice",
-    "voice.*",
-    "workers",
-    "workers.*"
+    "agent", "agent.*",
+    "agents", "agents.*",
+    "browser", "browser.*",
+    "capabilities", "capabilities.*",
+    "cli", "cli.*",
+    "config", "config.*",
+    "context", "context.*",
+    "core", "core.*",
+    "datasets", "datasets.*",
+    "desktop", "desktop.*",
+    "diagnostics", "diagnostics.*",
+    "discovery", "discovery.*",
+    "evaluation", "evaluation.*",
+    "evolution", "evolution.*",
+    "experimentation", "experimentation.*",
+    "genome", "genome.*",
+    "inference", "inference.*",
+    "knowledge", "knowledge.*",
+    "learning", "learning.*",
+    "levels", "levels.*",
+    "memory", "memory.*",
+    "mcp_runtime", "mcp_runtime.*",
+    "model", "model.*",
+    "models", "models.*",
+    "multimodal", "multimodal.*",
+    "planning", "planning.*",
+    "runtime", "runtime.*",
+    "scheduler", "scheduler.*",
+    "skills", "skills.*",
+    "soul", "soul.*",
+    "specializations", "specializations.*",
+    "tools", "tools.*",
+    "training", "training.*",
+    "vision", "vision.*",
+    "voice", "voice.*",
+    "workers", "workers.*"
 ]
-exclude = [
-    "tests",
-    "tests.*",
-    "gene1",
-    "gene1.*"
-]
+exclude = ["tests", "tests.*", "gene1", "gene1.*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

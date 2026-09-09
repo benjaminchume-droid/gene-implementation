@@ -1,0 +1,83 @@
+﻿gene:
+  name: "Gene"
+  version: "1.0.0"
+  architecture: "modular"
+
+model:
+  parameter_scaling: true
+  native_context_window: 32768
+  effective_context_target: 500000
+  architecture: "transformer"
+
+genome:
+  enabled: true
+  dynamic_modules: true
+  validated_evolution: true
+
+genes:
+  language: true
+  reasoning: true
+  mathematics: true
+  coding: true
+  science: true
+  web: true
+  vision: true
+  planning: true
+  tool_use: true
+
+memory:
+  enabled: true
+  persistent: true
+  episodic: true
+  semantic: true
+  user_profile: true
+  automatic_summarization: true
+  retrieval: true
+
+knowledge:
+  enabled: true
+  persistent: true
+  user_generated: true
+  database_backend: "sqlite"
+
+skills:
+  enabled: true
+  skill_tree: true
+  validated_evolution: true
+  automatic_skill_creation: true
+
+soul:
+  enabled: true
+  identity: true
+  behaviour: true
+  guidelines: true
+  characteristics: true
+
+tools:
+  mcp: true
+  browser: true
+  filesystem: true
+  web_search: true
+
+agents:
+  enabled: true
+  isolated_subagents: true
+  max_concurrent: 8
+  train_before_integration: true
+
+levels:
+  enabled: true
+  default: "insight"
+  available:
+    - insight
+    - scholar
+    - transcendent
+    - omniscient
+
+evolution:
+  enabled: true
+  neural_weight_rewriting: false
+  skill_evolution: true
+  knowledge_evolution: true
+  gene_module_creation: true
+  validation_required: true

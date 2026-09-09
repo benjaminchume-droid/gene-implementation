@@ -1,5 +1,3 @@
-﻿from __future__ import annotations
-
 from .models import SubAgentSpec
 
 
@@ -7,28 +5,37 @@ class SubAgentRegistry:
     def __init__(self) -> None:
         self._agents: dict[str, SubAgentSpec] = {}
 
-    def register(self, spec: SubAgentSpec) -> None:
-        if not spec.role.strip():
-            raise ValueError("Sub-agent role cannot be empty.")
+    def register(self, spec: SubAgentSpec, *, replace: bool = False) -> None:
+        name = spec.name.strip()
 
-        if spec.role in self._agents:
-            raise ValueError(
-                f"Sub-agent role already registered: {spec.role}"
-            )
+        if not name:
+            raise ValueError("Sub-agent name cannot be empty.")
 
-        self._agents[spec.role] = spec
+        if not replace and name in self._agents:
+            raise ValueError(f"Sub-agent already registered: {name}")
 
-    def get(self, role: str) -> SubAgentSpec | None:
-        return self._agents.get(role)
+        if spec.max_steps < 1:
+            raise ValueError("max_steps must be at least 1.")
 
-    def exists(self, role: str) -> bool:
-        return role in self._agents
+        if spec.timeout_seconds <= 0:
+            raise ValueError("timeout_seconds must be greater than zero.")
+
+        self._agents[name] = spec
+
+    def get(self, name: str) -> SubAgentSpec | None:
+        return self._agents.get(name)
+
+    def exists(self, name: str) -> bool:
+        return name in self._agents
+
+    def remove(self, name: str) -> None:
+        self._agents.pop(name, None)
 
     def all(self) -> list[SubAgentSpec]:
         return list(self._agents.values())
 
-    def roles(self) -> list[str]:
+    def names(self) -> list[str]:
         return list(self._agents.keys())
 
-    def unregister(self, role: str) -> None:
-        self._agents.pop(role, None)
+    def clear(self) -> None:
+        self._agents.clear()

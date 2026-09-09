@@ -1,5 +1,3 @@
-﻿from __future__ import annotations
-
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Any
@@ -14,12 +12,25 @@ class SubAgentStatus(str, Enum):
 
 
 @dataclass
+class SubAgentSpec:
+    name: str
+    description: str = ""
+    instructions: str = ""
+    capabilities: list[str] = field(default_factory=list)
+    allowed_tools: list[str] = field(default_factory=list)
+    model_id: str | None = None
+    max_steps: int = 20
+    timeout_seconds: float = 300.0
+    metadata: dict[str, Any] = field(default_factory=dict)
+
+
+@dataclass
 class SubAgentTask:
     id: str
+    agent_name: str
     objective: str
-    role: str = "general"
-    instructions: str = ""
     context: dict[str, Any] = field(default_factory=dict)
+    instructions: str = ""
     tools: list[str] = field(default_factory=list)
     model_id: str | None = None
     max_steps: int = 20
@@ -42,15 +53,3 @@ class SubAgentResult:
     @property
     def success(self) -> bool:
         return self.status == SubAgentStatus.COMPLETED
-
-
-@dataclass
-class SubAgentSpec:
-    role: str
-    description: str
-    system_instructions: str
-    capabilities: list[str] = field(default_factory=list)
-    allowed_tools: list[str] = field(default_factory=list)
-    model_id: str | None = None
-    max_steps: int = 20
-    metadata: dict[str, Any] = field(default_factory=dict)

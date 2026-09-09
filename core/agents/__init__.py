@@ -1,4 +1,4 @@
-﻿from .builtin import register_builtin_subagents
+from .builtin import register_builtin_subagents, register_subagent
 from .models import (
     SubAgentResult,
     SubAgentSpec,
@@ -16,4 +16,5 @@ __all__ = [
     "SubAgentSpec",
     "SubAgentStatus",
     "register_builtin_subagents",
+    "register_subagent",
 ]
